@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ff9966 0%, #ff5e62 100%); /* Bright coral to orange gradient */
+}
+
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2); 
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+
+h1 {
+    text-align: center;
+    color: #2c3e50; 
+    font-size: 32px;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+
+label {
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+
+input, textarea {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #3498db; 
+    border-radius: 8px;
+    background-color: #f1f1f1;
+    font-size: 16px;
+    color: #333;
+    transition: border-color 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    border-color: #2980b9;
+    outline: none;
+}
+
+textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+
+button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #36d1dc, #5b86e5); /* Cyan to blue gradient */
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+button:hover {
+    background: linear-gradient(45deg, #3498db, #2980b9); 
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}

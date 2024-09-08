@@ -1,0 +1,37 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Form</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Resume Form</h1>
+        <form id="resume-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="education">Education:</label>
+            <textarea id="education" name="education" required></textarea> 
+            
+            <label for="experience">Experience:</label>
+            <textarea id="experience" name="experience" required></textarea>
+            
+            <label for="skills">Skills:</label>
+            <textarea id="skills" name="skills" required></textarea>
+            
+            <button type="button" id="generate-pdf">Generate PDF</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
